@@ -1,0 +1,18 @@
+#include<iostream>
+#include<algorithm>
+
+using namespace std;
+int main(){
+    int arr[]={1 ,2 ,5 ,4 ,3 ,9 ,7 ,5};
+    int n = sizeof(arr)/sizeof(int);
+    sort(arr,arr+8);
+
+    for (int i = 0; i < n; i++)
+    {
+       cout<<arr[i]<<" ";
+    }
+    
+
+
+    return 0;
+}
