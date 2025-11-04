@@ -13,6 +13,6 @@ int main(){
     int arr[]={23 ,45 ,2 ,6 ,89 };
     int n=sizeof(arr)/sizeof(int);
 
-    cout<<"Position = "<<linearSearch(arr , n ,6);
+    cout<<"Position of index = "<<linearSearch(arr , n ,6);
     return 0;
 }

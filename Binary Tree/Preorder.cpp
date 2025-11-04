@@ -10,8 +10,8 @@ public:
     // Constructor and member variables already defined above
     Node(int data){
         this->data = data;
-        left = right =NULL;
-    }
+        left = right = NULL;
+    } 
 };
 static int idx = -1;
 Node* buildTree(vector<int> nodes){
@@ -21,8 +21,8 @@ Node* buildTree(vector<int> nodes){
     }
 
    Node* currNode = new Node(nodes[idx]);
-   currNode->left = buildTree(nodes);
-   currNode->right = buildTree(nodes);
+   currNode->left = buildTree(nodes); //left subtree
+   currNode->right = buildTree(nodes); //right subtree
 
    return currNode;
 }

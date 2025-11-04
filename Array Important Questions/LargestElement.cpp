@@ -1,11 +1,11 @@
 #include<iostream>
 #include<climits>
+#include<vector>
 using namespace std;
 
 int largestElement(int* arr , int n){
     int largest = INT_MIN;
     for(int i = 0 ; i < n ; i++ ){
-        cout<<arr[i]<<" "<<endl;
         if(arr[i] > largest){
             largest = arr[i];
         }

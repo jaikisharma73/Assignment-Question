@@ -13,13 +13,14 @@ using namespace std;
         return false; 
     }  
     int main() {
-       int arr[]= {1, 2, 3, 1};
+       int arr[]= {1, 2, 3, 2};
         int size = sizeof(arr) / sizeof(int);
     
-        if (containsDuplicate(arr, size)) {
-            cout << "true" << endl;
-        } else {
-            cout << "false" << endl;
+        if(containsDuplicate(arr, size)){
+            cout<<"True";
+        }
+        else{
+            cout<<"False";
         }
         return 0;
     };
