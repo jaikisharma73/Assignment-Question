@@ -11,7 +11,7 @@ int main() {
 
     for (char ch : input) {
         if (ch == 'a') aCount++;
-        else if (ch == 'e') eCount++; 
+        else if (ch == 'e') eCount++;
         else if (ch == 'i') iCount++;
         else if (ch == 'o') oCount++;
         else if (ch == 'u') uCount++;

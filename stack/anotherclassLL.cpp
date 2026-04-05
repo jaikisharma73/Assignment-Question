@@ -45,7 +45,7 @@ public:
     {
         if (isEmpty())
         {
-            cout << "Stack is Empty .\n";
+            cout << "Stack is the Empty .\n";
             return;
         }
         Node<T> *temp = head;
