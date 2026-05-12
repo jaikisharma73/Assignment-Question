@@ -29,6 +29,6 @@ int main()
     int arr[] = {2, 4, 6, 7, 8, 23, 45, 67, 89, 99};
     int n = sizeof(arr) / sizeof(int);
 
-    cout << "the Position of element  = " << binarySearch(arr, n, 67);
+    cout << "the Position of element is  = " << binarySearch(arr, n, 67);
     return 0;
 }
